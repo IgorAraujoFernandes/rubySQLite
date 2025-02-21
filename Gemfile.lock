@@ -29,11 +29,13 @@ GEM
       tilt (~> 2.0)
     sqlite3 (2.5.0)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (2.5.0-x64-mingw-ucrt)
     sqlite3 (2.5.0-x86_64-linux-gnu)
     tilt (2.6.0)
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
@@ -43,4 +45,4 @@ DEPENDENCIES
   sqlite3 (~> 2.5)
 
 BUNDLED WITH
-   2.6.2
+   2.4.19
